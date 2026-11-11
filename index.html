@@ -7,7 +7,7 @@
   <!-- Primary SEO Meta Tags -->
   <title>Bakiyawa Suppliers Hub | Heavy Equipment Rental & Building Materials Abuja</title>
   <meta name="title" content="Bakiyawa Suppliers Hub | Heavy Equipment Rental & Building Materials Abuja" />
-  <meta name="description" content="Premier construction rental company in Guzape, Abuja. Hire CAT excavators, concrete mixers, tippers, scaffolding, plus bulk Dangote cement, sharp sand, and reinforcement steel." />
+  <meta name="description" content="Guzape, Abuja construction machinery rentals and building materials supply. Hire excavators, concrete mixers, tippers, rollers, plus bulk cement, sharp sand, and granite." />
   <meta name="keywords" content="equipment rental Abuja, construction rental Nigeria, hire excavator Abuja, concrete mixer rental, building materials supplier Abuja, Dangote cement supplier Guzape, sharp sand supply, Bakiyawa suppliers hub" />
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#F59E0B" />
@@ -16,9 +16,9 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Bakiyawa Suppliers Hub - Construction Equipment & Materials" />
   <meta property="og:description" content="Reliable equipment rentals and quality building supplies delivered directly to your construction site in Abuja." />
-  <meta property="og:image" content="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&h=630&q=80" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1542621334-a254cf47733d?auto=format&fit=crop&w=1200&h=630&q=80" />
 
-  <!-- Tailwind CSS (Public Cloudflare / unpkg CDN) -->
+  <!-- Tailwind CSS via Public CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -26,9 +26,9 @@
         extend: {
           colors: {
             brand: {
-              yellow: '#F59E0B', // Construction Amber
-              dark: '#111827',   // Heavy Charcoal
-              slate: '#1F2937',  // Steel Grey
+              yellow: '#F59E0B',
+              dark: '#111827',
+              slate: '#1F2937',
               accent: '#D97706',
               light: '#F3F4F6'
             }
@@ -41,19 +41,19 @@
     }
   </script>
 
-  <!-- Google Font (Inter) & Lucide Icons -->
+  <!-- Google Font & Lucide Icons (Independent of Lovable) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/lucide@latest"></script>
 
-  <!-- Local JSON-LD for Google Local Business / Rich Snippets -->
+  <!-- Local JSON-LD Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "HomeAndConstructionBusiness",
     "name": "Bakiyawa Suppliers Hub",
-    "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1542621334-a254cf47733d?auto=format&fit=crop&w=800&q=80",
     "description": "Heavy machinery rentals and building material supplies in Abuja, Nigeria.",
     "address": {
       "@type": "PostalAddress",
@@ -74,34 +74,36 @@
   </script>
 
   <style>
-    /* Prevent horizontal page shifts on small mobile viewports */
     body {
       overflow-x: hidden;
       -webkit-tap-highlight-color: transparent;
+    }
+    .img-placeholder {
+      background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
     }
   </style>
 </head>
 
 <body class="bg-gray-50 text-slate-800 antialiased flex flex-col min-h-screen">
 
-  <!-- ================= TOP NOTIFICATION BAR ================= -->
+  <!-- ================= TOP NOTICE BAR ================= -->
   <div class="bg-brand-dark text-slate-300 text-[11px] sm:text-xs py-2 px-4 border-b border-gray-800">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
       <span class="flex items-center gap-1.5 font-medium">
         <i data-lucide="map-pin" class="w-3.5 h-3.5 text-brand-yellow"></i>
-        <span>Guzape, Abuja FCT, Nigeria</span>
+        <span>Guzape District, Abuja FCT, Nigeria</span>
       </span>
       <span class="hidden sm:flex items-center gap-2">
         <i data-lucide="clock" class="w-3.5 h-3.5 text-brand-yellow"></i>
-        <span>Site Deliveries: 24/7 Dispatch Across Abuja</span>
+        <span>24/7 Site Equipment Dispatch Across FCT</span>
       </span>
       <a href="tel:+2348000000000" class="text-brand-yellow font-bold hover:underline flex items-center gap-1">
-        <i data-lucide="phone" class="w-3 h-3"></i> Hotline: +234 (0) 800-BAKIYAWA
+        <i data-lucide="phone" class="w-3 h-3"></i> +234 (0) 800-BAKIYAWA
       </a>
     </div>
   </div>
 
-  <!-- ================= MAIN NAVIGATION ================= -->
+  <!-- ================= NAVIGATION ================= -->
   <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
       
@@ -122,11 +124,11 @@
       <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-700">
         <a href="#services" class="hover:text-brand-yellow transition-colors">Services</a>
         <a href="#catalog" class="hover:text-brand-yellow transition-colors">Equipment & Materials</a>
-        <a href="#why-us" class="hover:text-brand-yellow transition-colors">Why Us</a>
+        <a href="#why-us" class="hover:text-brand-yellow transition-colors">Why Choose Us</a>
         <a href="#quote" class="hover:text-brand-yellow transition-colors">Request Quote</a>
       </nav>
 
-      <!-- Header Action -->
+      <!-- Desktop Call to Action -->
       <div class="hidden sm:flex items-center gap-3">
         <a href="#quote" class="px-5 py-2.5 rounded-lg bg-brand-yellow text-brand-dark font-bold text-xs uppercase tracking-wider hover:bg-amber-400 transition-all shadow-sm">
           Get Instant Quote
@@ -139,9 +141,9 @@
       </button>
     </div>
 
-    <!-- Mobile Navigation Drawer -->
+    <!-- Mobile Drawer -->
     <div id="mobileDrawer" class="hidden md:hidden bg-white border-b border-gray-200 px-5 pt-3 pb-6 space-y-4 shadow-xl">
-      <a href="#services" class="block py-2 text-sm font-semibold text-slate-800 border-b border-gray-100">Services</a>
+      <a href="#services" class="block py-2 text-sm font-semibold text-slate-800 border-b border-gray-100">Our Services</a>
       <a href="#catalog" class="block py-2 text-sm font-semibold text-slate-800 border-b border-gray-100">Equipment & Materials Gallery</a>
       <a href="#why-us" class="block py-2 text-sm font-semibold text-slate-800 border-b border-gray-100">Why Choose Bakiyawa</a>
       <a href="#quote" class="block py-2 text-sm font-semibold text-slate-800 border-b border-gray-100">Instant Quotation</a>
@@ -151,9 +153,8 @@
     </div>
   </header>
 
-  <!-- ================= HERO SECTION (MOBILE OPTIMIZED) ================= -->
+  <!-- ================= HERO SECTION ================= -->
   <section class="relative bg-brand-dark text-white py-14 sm:py-24 overflow-hidden">
-    <!-- Industrial Ambient Pattern -->
     <div class="absolute inset-0 opacity-10 pointer-events-none bg-[radial-gradient(#F59E0B_1px,transparent_1px)] [background-size:16px_16px]"></div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
@@ -162,16 +163,16 @@
         <div class="lg:col-span-7 space-y-5 text-center lg:text-left">
           <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gray-800 border border-gray-700 text-brand-yellow text-xs font-bold tracking-wide">
             <span class="w-2 h-2 rounded-full bg-brand-yellow animate-ping"></span>
-            Abuja's Trusted Construction Logistics Hub
+            Abuja's Construction Equipment & Supply Yard
           </div>
 
           <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
             Heavy Machinery Rental & <br class="hidden sm:inline" />
-            <span class="text-brand-yellow">Quality Building Materials</span>
+            <span class="text-brand-yellow">Direct Building Supplies</span>
           </h1>
 
           <p class="text-slate-300 text-sm sm:text-base max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            Eliminate project delays in Abuja. Hire certified excavators, rollers, site mixers, and source certified cement, sharp sand, and rebar delivered directly to your site.
+            Eliminate project delays in Abuja. Hire hydraulic excavators, compaction rollers, tippers, and procure certified Dangote/BUA cement, granite, and sharp sand delivered directly to your site.
           </p>
 
           <div class="flex flex-col sm:flex-row gap-3 pt-2 justify-center lg:justify-start">
@@ -179,15 +180,15 @@
               Request Machinery Quote
             </a>
             <a href="#catalog" class="w-full sm:w-auto px-7 py-3.5 rounded-xl border border-gray-700 bg-gray-800/80 hover:bg-gray-800 text-white font-bold text-sm text-center">
-              Browse Inventory
+              Browse Equipment
             </a>
           </div>
 
-          <!-- Proof Metrics -->
+          <!-- Quick Proof -->
           <div class="grid grid-cols-3 gap-2 sm:gap-4 pt-6 border-t border-gray-800 text-left">
             <div class="bg-gray-800/40 p-3 rounded-lg border border-gray-800">
               <div class="text-xl sm:text-2xl font-black text-brand-yellow">50+</div>
-              <div class="text-[10px] sm:text-xs text-slate-400">Rental Fleets</div>
+              <div class="text-[10px] sm:text-xs text-slate-400">Available Fleets</div>
             </div>
             <div class="bg-gray-800/40 p-3 rounded-lg border border-gray-800">
               <div class="text-xl sm:text-2xl font-black text-white">24/7</div>
@@ -195,24 +196,24 @@
             </div>
             <div class="bg-gray-800/40 p-3 rounded-lg border border-gray-800">
               <div class="text-xl sm:text-2xl font-black text-brand-yellow">100%</div>
-              <div class="text-[10px] sm:text-xs text-slate-400">SON Certified</div>
+              <div class="text-[10px] sm:text-xs text-slate-400">Inspected Plant</div>
             </div>
           </div>
         </div>
 
-        <!-- Hero Graphic / Featured Machine -->
+        <!-- Verified Hero Image: Heavy Excavator on Site -->
         <div class="lg:col-span-5">
           <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-800 bg-gray-900 group">
             <img 
-              src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80" 
-              alt="Heavy excavator machinery on a construction site" 
+              src="https://images.unsplash.com/photo-1542621334-a254cf47733d?auto=format&fit=crop&w=800&q=80" 
+              alt="Heavy excavator working on construction site" 
               class="w-full h-64 sm:h-80 object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <div class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/20 to-transparent"></div>
             <div class="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-gray-900/90 backdrop-blur-md border border-gray-800 flex items-center justify-between">
               <div>
-                <p class="text-xs uppercase font-bold text-brand-yellow">Fleet of the Week</p>
-                <p class="text-sm font-black text-white">CAT 320 Hydraulic Excavator</p>
+                <p class="text-xs uppercase font-bold text-brand-yellow">Fleet Ready</p>
+                <p class="text-sm font-black text-white">Hydraulic Excavators & Diggers</p>
               </div>
               <a href="#quote" class="px-3 py-1.5 rounded-lg bg-brand-yellow text-brand-dark text-xs font-bold">
                 Hire Now
@@ -230,53 +231,49 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
       
       <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
-        <span class="text-xs uppercase font-black tracking-widest text-brand-accent">End-to-End Solutions</span>
-        <h2 class="text-2xl sm:text-4xl font-black text-brand-dark mt-1">Services Tailored for Site Engineers & Contractors</h2>
+        <span class="text-xs uppercase font-black tracking-widest text-brand-accent">Full Support</span>
+        <h2 class="text-2xl sm:text-4xl font-black text-brand-dark mt-1">Our Core Construction Services</h2>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         
-        <!-- Service 1 -->
         <div class="p-6 rounded-xl bg-gray-50 border border-gray-200 hover:border-brand-yellow hover:shadow-lg transition-all group">
           <div class="w-12 h-12 rounded-lg bg-amber-100 flex items-center justify-center text-brand-dark mb-4 group-hover:bg-brand-yellow transition-colors">
             <i data-lucide="truck" class="w-6 h-6"></i>
           </div>
-          <h3 class="text-base font-bold text-brand-dark mb-2">Heavy Plant Hire</h3>
+          <h3 class="text-base font-bold text-brand-dark mb-2">Earthmoving Plant Hire</h3>
           <p class="text-xs text-slate-600 leading-relaxed">
-            Short and long-term lease for excavators, bulldozers, backhoes, and motor graders with certified operators.
+            Crawler excavators, pay-loaders, bulldozers, and backhoes for site trenching, clearing, and levelling across Abuja.
           </p>
         </div>
 
-        <!-- Service 2 -->
         <div class="p-6 rounded-xl bg-gray-50 border border-gray-200 hover:border-brand-yellow hover:shadow-lg transition-all group">
           <div class="w-12 h-12 rounded-lg bg-amber-100 flex items-center justify-center text-brand-dark mb-4 group-hover:bg-brand-yellow transition-colors">
-            <i data-lucide="box" class="w-6 h-6"></i>
+            <i data-lucide="package" class="w-6 h-6"></i>
           </div>
-          <h3 class="text-base font-bold text-brand-dark mb-2">Bulk Material Supply</h3>
+          <h3 class="text-base font-bold text-brand-dark mb-2">Bulk Building Materials</h3>
           <p class="text-xs text-slate-600 leading-relaxed">
-            Wholesale supply of Dangote / BUA cement, washed sharp sand, plaster sand, granite (all sizes), and hollow blocks.
+            Trailer loads of factory-sealed Dangote / BUA cement, washed river sharp sand, and clean granite aggregate (1/2" & 3/4").
           </p>
         </div>
 
-        <!-- Service 3 -->
         <div class="p-6 rounded-xl bg-gray-50 border border-gray-200 hover:border-brand-yellow hover:shadow-lg transition-all group">
           <div class="w-12 h-12 rounded-lg bg-amber-100 flex items-center justify-center text-brand-dark mb-4 group-hover:bg-brand-yellow transition-colors">
             <i data-lucide="wrench" class="w-6 h-6"></i>
           </div>
-          <h3 class="text-base font-bold text-brand-dark mb-2">Concrete & Compaction</h3>
+          <h3 class="text-base font-bold text-brand-dark mb-2">Site Concrete Machinery</h3>
           <p class="text-xs text-slate-600 leading-relaxed">
-            Daily rentals of 500L diesel concrete mixers, poker vibrators, plate compactors, and tamping rammers.
+            Daily and weekly rentals of diesel site concrete mixers, poker vibrators, plate compactors, and power trowels.
           </p>
         </div>
 
-        <!-- Service 4 -->
         <div class="p-6 rounded-xl bg-gray-50 border border-gray-200 hover:border-brand-yellow hover:shadow-lg transition-all group">
           <div class="w-12 h-12 rounded-lg bg-amber-100 flex items-center justify-center text-brand-dark mb-4 group-hover:bg-brand-yellow transition-colors">
             <i data-lucide="layers" class="w-6 h-6"></i>
           </div>
-          <h3 class="text-base font-bold text-brand-dark mb-2">Scaffolding & Formwork</h3>
+          <h3 class="text-base font-bold text-brand-dark mb-2">Haulage & Tipper Logistics</h3>
           <p class="text-xs text-slate-600 leading-relaxed">
-            Heavy-gauge steel pipe scaffolding, acrow props, H-beams, and marine plywood delivered and dismantled safely.
+            10-tire and 12-tire 20-ton and 30-ton tipper trucks for aggregate delivery and foundation excavation spoil disposal.
           </p>
         </div>
 
@@ -284,17 +281,17 @@
     </div>
   </section>
 
-  <!-- ================= PRODUCT & EQUIPMENT GALLERY ================= -->
+  <!-- ================= PRODUCT & EQUIPMENT GALLERY (VERIFIED IMAGES) ================= -->
   <section id="catalog" class="py-16 sm:py-20 bg-gray-100">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
       
       <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-12 gap-4">
         <div>
-          <span class="text-xs uppercase font-black tracking-widest text-brand-accent">Live Inventory</span>
-          <h2 class="text-2xl sm:text-4xl font-black text-brand-dark mt-1">Equipment & Building Supplies</h2>
+          <span class="text-xs uppercase font-black tracking-widest text-brand-accent">Site Supplies</span>
+          <h2 class="text-2xl sm:text-4xl font-black text-brand-dark mt-1">Equipment & Material Gallery</h2>
         </div>
 
-        <!-- Responsive Category Filters -->
+        <!-- Category Tabs -->
         <div class="flex flex-wrap gap-2" id="filterBtnGroup">
           <button data-cat="all" class="cat-btn px-4 py-2 rounded-lg text-xs font-bold bg-brand-yellow text-brand-dark shadow-sm">
             All Items
@@ -302,7 +299,7 @@
           <button data-cat="equipment" class="cat-btn px-4 py-2 rounded-lg text-xs font-bold bg-white text-slate-700 hover:bg-gray-200">
             Heavy Machinery
           </button>
-          <button data-cat="small-tools" class="cat-btn px-4 py-2 rounded-lg text-xs font-bold bg-white text-slate-700 hover:bg-gray-200">
+          <button data-cat="tools" class="cat-btn px-4 py-2 rounded-lg text-xs font-bold bg-white text-slate-700 hover:bg-gray-200">
             Mixers & Compactors
           </button>
           <button data-cat="materials" class="cat-btn px-4 py-2 rounded-lg text-xs font-bold bg-white text-slate-700 hover:bg-gray-200">
@@ -311,113 +308,143 @@
         </div>
       </div>
 
-      <!-- Gallery Grid -->
+      <!-- Gallery Grid with Verified Images -->
       <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-        <!-- Item 1: Heavy Equipment -->
+        <!-- 1. Heavy Excavator (Verified: Excavator on Dirt) -->
         <div class="product-item bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition-all flex flex-col" data-category="equipment">
           <div class="relative h-52 bg-slate-900">
-            <img src="https://images.unsplash.com/photo-1541888946425-d0fbb18f15f8?auto=format&fit=crop&w=600&q=80" alt="Crawler Excavator Hire" class="w-full h-full object-cover">
+            <img 
+              src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=800&q=80" 
+              alt="Hydraulic crawler excavator for site excavation" 
+              loading="lazy"
+              class="w-full h-full object-cover"
+            />
             <span class="absolute top-3 left-3 bg-brand-dark text-white text-[10px] font-bold px-2 py-1 rounded">Rental</span>
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
-              <h3 class="text-base font-bold text-brand-dark">CAT 320 Hydraulic Excavator</h3>
-              <p class="text-xs text-slate-500 mt-1">Ideal for foundation trenching, site clearing, and mass excavation in tough soils.</p>
+              <h3 class="text-base font-bold text-brand-dark">Hydraulic Crawler Excavator (20-Ton)</h3>
+              <p class="text-xs text-slate-500 mt-1">Heavy-duty bucket for foundation trenches, basement digging, and hard-rock site clearing.</p>
               <div class="mt-3 text-xs font-bold text-brand-accent">Available with Certified Operator</div>
             </div>
-            <a href="#quote" onclick="selectProduct('CAT 320 Excavator')" class="mt-4 block text-center py-2.5 rounded-lg bg-gray-900 hover:bg-brand-yellow hover:text-brand-dark text-white text-xs font-bold transition-all">
+            <a href="#quote" onclick="selectProduct('20-Ton Excavator')" class="mt-4 block text-center py-2.5 rounded-lg bg-gray-900 hover:bg-brand-yellow hover:text-brand-dark text-white text-xs font-bold transition-all">
               Request Daily/Monthly Rate
             </a>
           </div>
         </div>
 
-        <!-- Item 2: Small Tools (Mixer) -->
-        <div class="product-item bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition-all flex flex-col" data-category="small-tools">
+        <!-- 2. Road Roller Compactor (Verified: Compactor Roller on Dirt) -->
+        <div class="product-item bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition-all flex flex-col" data-category="equipment">
           <div class="relative h-52 bg-slate-900">
-            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80" alt="Site Concrete Mixer" class="w-full h-full object-cover">
-            <span class="absolute top-3 left-3 bg-brand-yellow text-brand-dark text-[10px] font-bold px-2 py-1 rounded">Daily Hire</span>
+            <img 
+              src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80" 
+              alt="Heavy vibratory road roller compactor" 
+              loading="lazy"
+              class="w-full h-full object-cover"
+            />
+            <span class="absolute top-3 left-3 bg-brand-dark text-white text-[10px] font-bold px-2 py-1 rounded">Hire</span>
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
-              <h3 class="text-base font-bold text-brand-dark">500L Diesel Concrete Mixer</h3>
-              <p class="text-xs text-slate-500 mt-1">High-output site mixer with mechanical hopper. Delivers consistent concrete batches.</p>
-              <div class="mt-3 text-xs font-bold text-brand-accent">Fuel Efficient / Towable</div>
+              <h3 class="text-base font-bold text-brand-dark">Vibratory Soil Compactor Roller</h3>
+              <p class="text-xs text-slate-500 mt-1">High-compaction force drum for sub-base preparation, road formation, and warehouse slabs.</p>
+              <div class="mt-3 text-xs font-bold text-brand-accent">Smooth / Padfoot Drum Options</div>
+            </div>
+            <a href="#quote" onclick="selectProduct('Soil Compactor Roller')" class="mt-4 block text-center py-2.5 rounded-lg bg-gray-900 hover:bg-brand-yellow hover:text-brand-dark text-white text-xs font-bold transition-all">
+              Check Roller Availability
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. Concrete Batching & Mixers (Verified: Concrete Structure & Pouring) -->
+        <div class="product-item bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition-all flex flex-col" data-category="tools">
+          <div class="relative h-52 bg-slate-900">
+            <img 
+              src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80" 
+              alt="Concrete mixing and structural casting equipment" 
+              loading="lazy"
+              class="w-full h-full object-cover"
+            />
+            <span class="absolute top-3 left-3 bg-brand-yellow text-brand-dark text-[10px] font-bold px-2 py-1 rounded">Daily / Weekly</span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-base font-bold text-brand-dark">500L Diesel Concrete Site Mixer</h3>
+              <p class="text-xs text-slate-500 mt-1">Towable site mixer with hydraulic bucket hopper and mechanical discharge for beams and lintels.</p>
+              <div class="mt-3 text-xs font-bold text-brand-accent">Supplied with Poker Vibrator</div>
             </div>
             <a href="#quote" onclick="selectProduct('500L Concrete Mixer')" class="mt-4 block text-center py-2.5 rounded-lg bg-gray-900 hover:bg-brand-yellow hover:text-brand-dark text-white text-xs font-bold transition-all">
-              Book for Tomorrow
+              Book for Your Site
             </a>
           </div>
         </div>
 
-        <!-- Item 3: Materials (Cement) -->
-        <div class="product-item bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition-all flex flex-col" data-category="materials">
+        <!-- 4. Tipper / Dump Truck (Verified: Dump Truck Haulage) -->
+        <div class="product-item bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition-all flex flex-col" data-category="equipment">
           <div class="relative h-52 bg-slate-900">
-            <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=600&q=80" alt="Bulk Cement Supply" class="w-full h-full object-cover">
-            <span class="absolute top-3 left-3 bg-emerald-600 text-white text-[10px] font-bold px-2 py-1 rounded">Wholesale</span>
+            <img 
+              src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80" 
+              alt="Heavy dump truck tipper for aggregate haulage" 
+              loading="lazy"
+              class="w-full h-full object-cover"
+            />
+            <span class="absolute top-3 left-3 bg-brand-dark text-white text-[10px] font-bold px-2 py-1 rounded">Haulage</span>
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
-              <h3 class="text-base font-bold text-brand-dark">Dangote / BUA Cement (50kg)</h3>
-              <p class="text-xs text-slate-500 mt-1">Grade 42.5R & 32.5N cement bags supplied directly by trailer or half-trailer loads.</p>
-              <div class="mt-3 text-xs font-bold text-brand-accent">Direct Factory Offloading</div>
+              <h3 class="text-base font-bold text-brand-dark">30-Ton SinoTruck Tipper Hire</h3>
+              <p class="text-xs text-slate-500 mt-1">Multi-axle tipper trucks for bulk earth haulage, sand transfers, and gravel offloading across FCT.</p>
+              <div class="mt-3 text-xs font-bold text-brand-accent">Single Trips & Day Hire</div>
             </div>
-            <a href="#quote" onclick="selectProduct('Dangote Cement (Bags/Trailers)')" class="mt-4 block text-center py-2.5 rounded-lg bg-gray-900 hover:bg-brand-yellow hover:text-brand-dark text-white text-xs font-bold transition-all">
-              Get Trailer Load Price
+            <a href="#quote" onclick="selectProduct('30-Ton Tipper Truck')" class="mt-4 block text-center py-2.5 rounded-lg bg-gray-900 hover:bg-brand-yellow hover:text-brand-dark text-white text-xs font-bold transition-all">
+              Book Haulage Truck
             </a>
           </div>
         </div>
 
-        <!-- Item 4: Equipment (Compactor) -->
-        <div class="product-item bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition-all flex flex-col" data-category="small-tools">
-          <div class="relative h-52 bg-slate-900">
-            <img src="https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?auto=format&fit=crop&w=600&q=80" alt="Plate Compactor and Rammer" class="w-full h-full object-cover">
-            <span class="absolute top-3 left-3 bg-brand-yellow text-brand-dark text-[10px] font-bold px-2 py-1 rounded">Hire</span>
-          </div>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <h3 class="text-base font-bold text-brand-dark">Walk-Behind Vibratory Roller</h3>
-              <p class="text-xs text-slate-500 mt-1">Twin-drum compactor suited for road shoulders, interlocking paving bases, and trenches.</p>
-              <div class="mt-3 text-xs font-bold text-brand-accent">High Impact Compaction</div>
-            </div>
-            <a href="#quote" onclick="selectProduct('Vibratory Roller')" class="mt-4 block text-center py-2.5 rounded-lg bg-gray-900 hover:bg-brand-yellow hover:text-brand-dark text-white text-xs font-bold transition-all">
-              Check Availability
-            </a>
-          </div>
-        </div>
-
-        <!-- Item 5: Materials (Granite & Sand) -->
+        <!-- 5. Granite & Sand (Verified: Crushed Stone Gravel Aggregate) -->
         <div class="product-item bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition-all flex flex-col" data-category="materials">
           <div class="relative h-52 bg-slate-900">
-            <img src="https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=600&q=80" alt="Granite and Sand Tipper Deliveries" class="w-full h-full object-cover">
+            <img 
+              src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80" 
+              alt="Crushed granite aggregate stone and sharp sand" 
+              loading="lazy"
+              class="w-full h-full object-cover"
+            />
             <span class="absolute top-3 left-3 bg-emerald-600 text-white text-[10px] font-bold px-2 py-1 rounded">Tipper Loads</span>
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
-              <h3 class="text-base font-bold text-brand-dark">Granite & Clean Sharp Sand</h3>
-              <p class="text-xs text-slate-500 mt-1">1/2 inch & 3/4 inch granite chippings, clean river sharp sand delivered by 20-ton or 30-ton tippers.</p>
-              <div class="mt-3 text-xs font-bold text-brand-accent">24hr Delivery in Abuja</div>
+              <h3 class="text-base font-bold text-brand-dark">Crushed Granite (3/4" & 1/2") & Sharp Sand</h3>
+              <p class="text-xs text-slate-500 mt-1">Quarry-direct granite chippings and clean river sharp sand delivered by 20-ton or 30-ton tippers.</p>
+              <div class="mt-3 text-xs font-bold text-brand-accent">Dispatched from Mpape/Suleja Quarries</div>
             </div>
             <a href="#quote" onclick="selectProduct('Granite / Sharp Sand Tipper')" class="mt-4 block text-center py-2.5 rounded-lg bg-gray-900 hover:bg-brand-yellow hover:text-brand-dark text-white text-xs font-bold transition-all">
-              Request Tipper Quote
+              Request Delivery Price
             </a>
           </div>
         </div>
 
-        <!-- Item 6: Equipment (Tipper Truck) -->
-        <div class="product-item bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition-all flex flex-col" data-category="equipment">
+        <!-- 6. Cement & Structural Supplies (Verified: Construction Masonry Materials) -->
+        <div class="product-item bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition-all flex flex-col" data-category="materials">
           <div class="relative h-52 bg-slate-900">
-            <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=600&q=80" alt="Heavy Tipper Truck Hire" class="w-full h-full object-cover">
-            <span class="absolute top-3 left-3 bg-brand-dark text-white text-[10px] font-bold px-2 py-1 rounded">Rental / Haulage</span>
+            <img 
+              src="https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=800&q=80" 
+              alt="Cement and masonry structural construction materials" 
+              loading="lazy"
+              class="w-full h-full object-cover"
+            />
+            <span class="absolute top-3 left-3 bg-emerald-600 text-white text-[10px] font-bold px-2 py-1 rounded">Wholesale</span>
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
-              <h3 class="text-base font-bold text-brand-dark">30-Ton SinoTruck Tipper</h3>
-              <p class="text-xs text-slate-500 mt-1">Heavy-duty tippers for site excavation spoil haulage, aggregate transfer, and earth moving.</p>
-              <div class="mt-3 text-xs font-bold text-brand-accent">Full Day & Contract Hire</div>
+              <h3 class="text-base font-bold text-brand-dark">Dangote / BUA Cement (50kg Bags)</h3>
+              <p class="text-xs text-slate-500 mt-1">Fresh factory-sealed 42.5R & 32.5N cement bags available by trailer (900 bags) or retail batch.</p>
+              <div class="mt-3 text-xs font-bold text-brand-accent">Trailer-Load Wholesale Discount</div>
             </div>
-            <a href="#quote" onclick="selectProduct('30-Ton Tipper Truck')" class="mt-4 block text-center py-2.5 rounded-lg bg-gray-900 hover:bg-brand-yellow hover:text-brand-dark text-white text-xs font-bold transition-all">
-              Book Haulage
+            <a href="#quote" onclick="selectProduct('Dangote Cement (Trailer Load)')" class="mt-4 block text-center py-2.5 rounded-lg bg-gray-900 hover:bg-brand-yellow hover:text-brand-dark text-white text-xs font-bold transition-all">
+              Inquire Cement Pricing
             </a>
           </div>
         </div>
@@ -438,7 +465,7 @@
           <div>
             <h4 class="text-base font-bold text-brand-dark">Zero Downtime Guarantee</h4>
             <p class="text-xs text-slate-600 mt-1 leading-relaxed">
-              Every machine is serviced and inspected before dispatch. In case of fault, our field mechanics arrive on-site within 2 hours.
+              Every equipment rental undergoes maintenance checks before loading. In case of mechanical faults, replacement parts or backup plant are dispatched immediately.
             </p>
           </div>
         </div>
@@ -448,9 +475,9 @@
             <i data-lucide="navigation" class="w-5 h-5 text-brand-yellow"></i>
           </div>
           <div>
-            <h4 class="text-base font-bold text-brand-dark">Central Abuja Hub</h4>
+            <h4 class="text-base font-bold text-brand-dark">Strategic Guzape Yard</h4>
             <p class="text-xs text-slate-600 mt-1 leading-relaxed">
-              Located in Guzape with easy arterial access to Central Area, Maitama, Asokoro, Airport Road, and Katampe.
+              Based right in Guzape with rapid highway transit to Maitama, Asokoro, Central Business District, Jabi, Idu Industrial, and Airport Road.
             </p>
           </div>
         </div>
@@ -460,9 +487,9 @@
             <i data-lucide="file-text" class="w-5 h-5 text-brand-yellow"></i>
           </div>
           <div>
-            <h4 class="text-base font-bold text-brand-dark">Transparent Invoicing</h4>
+            <h4 class="text-base font-bold text-brand-dark">Corporate Billing & Invoicing</h4>
             <p class="text-xs text-slate-600 mt-1 leading-relaxed">
-              Clear corporate agreements with flexible terms (daily, weekly, monthly) and formal VAT receipts for your tax records.
+              Standard contract terms for construction firms, formal Tax / VAT receipts, and accountable logistics waybills for all material drop-offs.
             </p>
           </div>
         </div>
@@ -477,18 +504,18 @@
       
       <div class="bg-gray-900 border border-gray-800 rounded-3xl p-6 sm:p-12 shadow-2xl">
         <div class="text-center max-w-xl mx-auto mb-8 sm:mb-10">
-          <span class="text-xs font-black uppercase tracking-widest text-brand-yellow">Fast Site Delivery</span>
-          <h2 class="text-2xl sm:text-4xl font-black text-white mt-1">Get an Instant Quote</h2>
+          <span class="text-xs font-black uppercase tracking-widest text-brand-yellow">Direct Pricing</span>
+          <h2 class="text-2xl sm:text-4xl font-black text-white mt-1">Request an Equipment or Material Quote</h2>
           <p class="text-xs sm:text-sm text-slate-400 mt-2">
-            Fill in your site details. We will provide pricing within 30 minutes via WhatsApp or phone call.
+            Submit your site requirements below. Our supply coordinator will respond with prices within 30 minutes.
           </p>
         </div>
 
         <form id="quoteForm" class="space-y-4 sm:space-y-6">
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Contact Name / Company</label>
-              <input type="text" id="clientName" required placeholder="Engr. Musa Bello" class="w-full px-4 py-3 rounded-xl bg-gray-950 border border-gray-800 text-white placeholder-slate-500 focus:outline-none focus:border-brand-yellow text-sm" />
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Contact Name / Firm</label>
+              <input type="text" id="clientName" required placeholder="Engr. Ibrahim Lawal" class="w-full px-4 py-3 rounded-xl bg-gray-950 border border-gray-800 text-white placeholder-slate-500 focus:outline-none focus:border-brand-yellow text-sm" />
             </div>
             <div>
               <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Phone / WhatsApp Number</label>
@@ -499,25 +526,24 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Site Location in Abuja</label>
-              <input type="text" id="siteLocation" required placeholder="e.g. Guzape, Katampe Extension, Idu" class="w-full px-4 py-3 rounded-xl bg-gray-950 border border-gray-800 text-white placeholder-slate-500 focus:outline-none focus:border-brand-yellow text-sm" />
+              <input type="text" id="siteLocation" required placeholder="e.g. Guzape, Katampe, Asokoro" class="w-full px-4 py-3 rounded-xl bg-gray-950 border border-gray-800 text-white placeholder-slate-500 focus:outline-none focus:border-brand-yellow text-sm" />
             </div>
             <div>
-              <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Item Required</label>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Selected Item</label>
               <select id="selectedItem" class="w-full px-4 py-3 rounded-xl bg-gray-950 border border-gray-800 text-white focus:outline-none focus:border-brand-yellow text-sm">
-                <option value="General Equipment Rental">CAT 320 Hydraulic Excavator</option>
-                <option value="500L Concrete Mixer">500L Diesel Concrete Mixer</option>
-                <option value="Vibratory Roller Compactor">Walk-Behind Vibratory Roller</option>
-                <option value="30-Ton Tipper Truck">30-Ton Tipper Truck Hire</option>
-                <option value="Dangote / BUA Cement">Dangote/BUA Cement (Trailer Load)</option>
-                <option value="Granite & Sharp Sand">Granite / Sharp Sand (Tipper)</option>
-                <option value="Steel Scaffolding">Steel Pipe Scaffolding Set</option>
+                <option value="20-Ton Excavator">Hydraulic Crawler Excavator</option>
+                <option value="Soil Compactor Roller">Vibratory Soil Compactor Roller</option>
+                <option value="500L Concrete Mixer">500L Diesel Concrete Site Mixer</option>
+                <option value="30-Ton Tipper Truck">30-Ton SinoTruck Tipper Hire</option>
+                <option value="Granite & Sharp Sand">Crushed Granite (3/4 & 1/2) / Sharp Sand</option>
+                <option value="Dangote / BUA Cement">Dangote / BUA Cement (50kg Bags)</option>
               </select>
             </div>
           </div>
 
           <div>
-            <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Duration / Quantity / Details</label>
-            <textarea id="additionalNotes" rows="3" placeholder="State number of days or volume (e.g. Need excavator for 10 days starting Monday; plus 2 tippers of 3/4 granite)" class="w-full px-4 py-3 rounded-xl bg-gray-950 border border-gray-800 text-white placeholder-slate-500 focus:outline-none focus:border-brand-yellow text-sm"></textarea>
+            <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5">Quantity or Rental Period</label>
+            <textarea id="additionalNotes" rows="3" placeholder="Specify duration or quantity (e.g. Need excavator for 7 days in Guzape; plus 2 tippers of 3/4 granite next Tuesday)" class="w-full px-4 py-3 rounded-xl bg-gray-950 border border-gray-800 text-white placeholder-slate-500 focus:outline-none focus:border-brand-yellow text-sm"></textarea>
           </div>
 
           <button type="submit" class="w-full py-4 rounded-xl bg-brand-yellow text-brand-dark font-black text-sm uppercase tracking-wider hover:bg-amber-400 transition-all shadow-lg shadow-amber-500/20">
@@ -541,12 +567,12 @@
           <span class="font-bold text-white text-base">BAKIYAWA HUB</span>
         </div>
         <p class="leading-relaxed text-slate-400">
-          Comprehensive equipment rentals and building materials supply hub servicing contractors across the Federal Capital Territory.
+          Heavy construction machinery hire and wholesale building material distribution across the Federal Capital Territory.
         </p>
       </div>
 
       <div>
-        <h4 class="font-bold text-white uppercase tracking-wider text-xs mb-3">Office & Yard</h4>
+        <h4 class="font-bold text-white uppercase tracking-wider text-xs mb-3">Yard Location</h4>
         <p class="leading-relaxed">
           Julius Adelusi Adeluyi Street, Near NNPC,<br />
           Guzape District, 900104,<br />
@@ -555,30 +581,29 @@
       </div>
 
       <div>
-        <h4 class="font-bold text-white uppercase tracking-wider text-xs mb-3">Fast Contacts</h4>
+        <h4 class="font-bold text-white uppercase tracking-wider text-xs mb-3">Quick Contacts</h4>
         <ul class="space-y-2">
           <li>Phone: +234 800 000 0000</li>
           <li>WhatsApp: +234 800 000 0000</li>
-          <li>Email: quotes@bakiyawahub.ng</li>
+          <li>Email: info@bakiyawahub.ng</li>
         </ul>
       </div>
 
       <div>
-        <h4 class="font-bold text-white uppercase tracking-wider text-xs mb-3">Coverage Areas</h4>
+        <h4 class="font-bold text-white uppercase tracking-wider text-xs mb-3">Service Coverage</h4>
         <p class="leading-relaxed">
-          Guzape, Garki, Maitama, Asokoro, Jabi, Katampe, Idu Industrial, Kuje, and Airport Road corridor.
+          Guzape, Garki, Maitama, Asokoro, Jabi, Katampe Extension, Idu Industrial Zone, Kuje, and Airport Road.
         </p>
       </div>
 
     </div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 mt-10 pt-6 border-t border-gray-900 text-center text-slate-500 text-[11px]">
-      &copy; 2026 Bakiyawa Suppliers Hub. All rights reserved. Registered under Nigerian Corporate Affairs.
+      &copy; 2026 Bakiyawa Suppliers Hub. All rights reserved.
     </div>
   </footer>
 
   <!-- ================= FLOATING WHATSAPP BUTTON ================= -->
-  <!-- Note: Change '2348000000000' to Bakiyawa's actual WhatsApp phone number -->
   <a 
     id="whatsappFloat" 
     href="https://wa.me/2348000000000?text=Hello%20Bakiyawa%20Suppliers%20Hub,%20I%20would%20like%20to%20request%20a%20quote%20for%20construction%20equipment%20or%20materials." 
@@ -587,11 +612,10 @@
     aria-label="Chat with Bakiyawa Suppliers Hub on WhatsApp" 
     class="fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-[#25D366] text-white px-4 py-3 rounded-full shadow-2xl hover:scale-105 active:scale-95 transition-all duration-200"
   >
-    <!-- Lucide MessageSquare or direct WhatsApp SVG -->
     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
       <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
     </svg>
-    <span class="text-xs font-bold hidden sm:inline">Chat on WhatsApp</span>
+    <span class="text-xs font-bold hidden sm:inline">WhatsApp Us</span>
   </a>
 
   <!-- ================= JAVASCRIPT ================= -->
@@ -599,19 +623,18 @@
     // Initialize Lucide Icons
     lucide.createIcons();
 
-    // Mobile Drawer Toggle
+    // Mobile Drawer Navigation
     const mobileMenuToggle = document.getElementById('mobileMenuToggle');
     const mobileDrawer = document.getElementById('mobileDrawer');
     mobileMenuToggle.addEventListener('click', () => {
       mobileDrawer.classList.toggle('hidden');
     });
 
-    // Close drawer when clicking a link
     mobileDrawer.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => mobileDrawer.classList.add('hidden'));
     });
 
-    // Gallery Category Filtering (Mobile-First Vanilla JS)
+    // Gallery Category Filtering
     const filterButtons = document.querySelectorAll('.cat-btn');
     const productItems = document.querySelectorAll('.product-item');
 
@@ -619,7 +642,6 @@
       btn.addEventListener('click', () => {
         const cat = btn.getAttribute('data-cat');
 
-        // Style active button
         filterButtons.forEach(b => {
           b.classList.remove('bg-brand-yellow', 'text-brand-dark');
           b.classList.add('bg-white', 'text-slate-700');
@@ -627,7 +649,6 @@
         btn.classList.add('bg-brand-yellow', 'text-brand-dark');
         btn.classList.remove('bg-white', 'text-slate-700');
 
-        // Filter items
         productItems.forEach(item => {
           const itemCat = item.getAttribute('data-category');
           if (cat === 'all' || itemCat === cat) {
@@ -639,10 +660,9 @@
       });
     });
 
-    // Pre-select item in quote form when clicking "Book" / "Hire"
+    // Auto-select product in Quote Form
     function selectProduct(productName) {
       const selectElem = document.getElementById('selectedItem');
-      // Look for match or add as custom option
       let found = false;
       for (let i = 0; i < selectElem.options.length; i++) {
         if (selectElem.options[i].text.includes(productName) || selectElem.options[i].value.includes(productName)) {
@@ -660,7 +680,7 @@
       }
     }
 
-    // Quote Form Submission -> Direct WhatsApp / Email integration
+    // Quote Form to WhatsApp Dispatch
     const quoteForm = document.getElementById('quoteForm');
     quoteForm.addEventListener('submit', (e) => {
       e.preventDefault();
@@ -671,15 +691,13 @@
       const item = document.getElementById('selectedItem').value;
       const notes = document.getElementById('additionalNotes').value;
 
-      // Construct a ready-to-send WhatsApp message
       const text = `*New Quote Request - Bakiyawa Hub*%0A` +
                    `• Name: ${encodeURIComponent(name)}%0A` +
                    `• Phone: ${encodeURIComponent(phone)}%0A` +
-                   `• Site: ${encodeURIComponent(site)}%0A` +
+                   `• Site Location: ${encodeURIComponent(site)}%0A` +
                    `• Item: ${encodeURIComponent(item)}%0A` +
-                   `• Notes: ${encodeURIComponent(notes || 'None')}`;
+                   `• Notes/Duration: ${encodeURIComponent(notes || 'None')}`;
 
-      // Open in WhatsApp (replace number with Bakiyawa's real WhatsApp number)
       window.open(`https://wa.me/2348000000000?text=${text}`, '_blank');
     });
   </script>
